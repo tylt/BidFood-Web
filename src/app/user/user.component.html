@@ -1,0 +1,19 @@
+<div id="register" class="center">
+  <h3>User</h3>
+  <p>
+    <label>Id</label>
+    <input [(ngModel)]="id" type="text" />
+  </p>
+
+  <p></p>
+  <p>
+    <label>First Name</label>
+    <input [(ngModel)]="firstName" type="text" />
+  </p>
+  <p>
+    <label>Last Name</label>
+    <input [(ngModel)]="lastName" type="text" />
+  </p>
+  <button (click)="submit()" id="button">Submit</button>
+  <h4>{{ message }}</h4>
+</div>
